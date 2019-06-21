@@ -7,16 +7,16 @@ var connection = require("../config/connection.js");
 
 var orm = {
 //all 
-selectAll: function (tableInput,cb) {
+all: function (tableInput,cb) {
 
 },
 
 //create
-insertOne: function (table, cols, vals, cb){
+create: function (table, cols, vals, cb){
 
 },
 // update
-updateOne: function (table, objColVals, condition, cb){
+update: function (table, objColVals, condition, cb){
 
 }
 };
